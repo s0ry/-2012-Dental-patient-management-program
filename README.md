@@ -1,5 +1,4 @@
-# 2012 Dental patient management program 
-(치과 환자 관리 프로그램)
+# 2012 치과 환자 관리 프로그램
 
 Visual C++
 ==============
