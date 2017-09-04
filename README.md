@@ -12,6 +12,6 @@
 
 클래스 설계
 -------------
-"
+<pre><code>
 void Application::Try() : 프로그램 실행
-"
+</code></pre>
