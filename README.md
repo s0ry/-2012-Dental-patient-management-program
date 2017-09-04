@@ -14,13 +14,13 @@
 -------------
 + Application.h
 <pre><code>
-void Try();											//메인 메뉴 출력
-void Input_day(int& year, int& month, int &day);		//날짜 입력받기
+void Try();										//메인 메뉴 출력
+void Input_day(int& year, int& month, int &day);	//날짜 입력받기
 int Main_menu();										//메인 메뉴
-int Search_menu();										//색인 선택 메뉴 출력
-void Search_for_name(StructTree tree, QueType& que);		//이름으로 검색
-void Search_for_number(StructTree tree, QueType& que);		//번호로 검색
-void Search_for_treat(StructTree tree, QueType& que);		//치료법으로 검색
+int Search_menu();									//색인 선택 메뉴 출력
+void Search_for_name(StructTree tree, QueType& que);	//이름으로 검색
+void Search_for_number(StructTree tree, QueType& que);	//번호로 검색
+void Search_for_treat(StructTree tree, QueType& que);	//치료법으로 검색
 </code></pre>
 
 + Patient.h
@@ -28,20 +28,20 @@ void Search_for_treat(StructTree tree, QueType& que);		//치료법으로 검색
 private:
 	string m_name;		//환자 이름
 	int m_number;		//순번
-	int m_year;			//치료 년도
+	int m_year;		//치료 년도
 	int m_month;		//치료 월
-	int m_day;			//치료 일
+	int m_day;		//치료 일
 	string m_treatment;	//치료방법
 
 public:
 	void Input_data(int& count, int year, int month, int day);	//이름, 순번, 치료일시 저장
-	void Select_treat();								//치료방법 저장
-	void Data_copy(Patient data);						//환자 데이터 저장
+	void Select_treat();						//치료방법 저장
+	void Data_copy(Patient data);					//환자 데이터 저장
 	void Data_stream(ofstream& file);					//.txt파일에 저장
-	void Print_data();									//환자 데이터 출력
-	string NameIs();									//환자 이름 리턴
-	int NumberIs();										//환자 순번 리턴
-	string TreatIs();									//환자 치료방법 리턴
+	void Print_data();							//환자 데이터 출력
+	string NameIs();							//환자 이름 리턴
+	int NumberIs();							//환자 순번 리턴
+	string TreatIs();							//환자 치료방법 리턴
 </code></pre>
 
 + QueType.h
@@ -67,13 +67,13 @@ public:
 	StructTree();			//생성자
 	~StructTree();			//소멸자
 	void MakeEmpty();		//root를 NULL로 초기화
-	bool IsEmpty() const;	//Tree가 비었는지 확인
-	int LengthIs() const;	//Tree의 노드 수 리턴
-	void Search_name(string name, QueType& que);	//이름으로 검색
-	void Search_number(int number, QueType& que);	//순번으로 검색
-	void Search_treat(int treat, QueType& que);	//치료방법으로 검색
+	bool IsEmpty() const;		//Tree가 비었는지 확인
+	int LengthIs() const;		//Tree의 노드 수 리턴
+	void Search_name(string name, QueType& que);		//이름으로 검색
+	void Search_number(int number, QueType& que);		//순번으로 검색
+	void Search_treat(int treat, QueType& que);		//치료방법으로 검색
 	void InsertItem(Patient data, ofstream& file);		//트리에 데이터 추가
-	void PrintAll(QueType& que);						//트리의 모든 노드 출력
+	void PrintAll(QueType& que);				//트리의 모든 노드 출력
 private:
 	TreeNode* root;
 </code></pre>
