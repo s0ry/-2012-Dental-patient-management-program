@@ -12,6 +12,11 @@
 + 환자 객체를 순번 순으로 트리 내 저장.
 + 검색한 환자 정보를 큐에 저장하여, 순번 순으로 출력. 
 
+<p align="center">
+  <img src="art/icon.png" vspace="10" width="250" height="250">
+</p>
+
+
 클래스 설계
 -------------
 + Application.h
