@@ -18,21 +18,30 @@
 <p>
   <img src="1.png" vspace="10" >
 </p>
+
 + 환자 정보 입력(이름, 시술명)
 <p>
   <img src="2.png" vspace="10" >
 </p>
+
 + 환자 정보 검색(이름으로 검색)
 <p>
   <img src="3.png" vspace="10" >
 </p>
+
 + 검색 결과
 <p>
   <img src="4.png" vspace="10" >
 </p>
+
 + 전체 환자 출력
 <p>
   <img src="5.png" vspace="10" >
+</p>
+
++ Patient_data.txt
+<p>
+  <img src="6.png" vspace="10" >
 </p>
 
 클래스 설계
