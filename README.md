@@ -12,8 +12,10 @@
 + 환자 객체를 순번 순으로 트리 내 저장.
 + 검색한 환자 정보를 큐에 저장하여, 순번 순으로 출력. 
 
+실행 결과
+-------------
 <p align="center">
-  <img src="1.png" vspace="10" width="250" height="250">
+  <img src="1.png" vspace="10" >
 </p>
 
 
