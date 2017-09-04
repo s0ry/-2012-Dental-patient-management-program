@@ -1,5 +1,6 @@
-# 2012 Dental patient management program (치과 환자 관리 프로그램)
-==============
+# 2012 Dental patient management program 
+(치과 환자 관리 프로그램)
+
 Visual C++
 ==============
 본 프로그램은 치과에서 환자 정보를 체계적으로 관리하는 서비스를 제공합니다.
