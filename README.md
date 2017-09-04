@@ -14,10 +14,23 @@
 
 실행 결과
 -------------
-<p align="center">
++ 날짜를 입력한 후의 메인 메뉴
+<p>
   <img src="1.png" vspace="10" >
 </p>
-
++ 
+<p>
+  <img src="2.png" vspace="10" >
+</p>
+<p>
+  <img src="3.png" vspace="10" >
+</p>
+<p>
+  <img src="4.png" vspace="10" >
+</p>
+<p>
+  <img src="5.png" vspace="10" >
+</p>
 
 클래스 설계
 -------------
