@@ -14,13 +14,13 @@
 -------------
 + Application.h
 <pre><code>
-void Try();										//메인 메뉴 출력
-void Input_day(int& year, int& month, int &day);	//날짜 입력받기
-int Main_menu();										//메인 메뉴
-int Search_menu();									//색인 선택 메뉴 출력
-void Search_for_name(StructTree tree, QueType& que);	//이름으로 검색
-void Search_for_number(StructTree tree, QueType& que);	//번호로 검색
-void Search_for_treat(StructTree tree, QueType& que);	//치료법으로 검색
+void Try();									//메인 메뉴 출력
+void Input_day(int& year, int& month, int &day);		//날짜 입력받기
+int Main_menu();								//메인 메뉴
+int Search_menu();								//색인 선택 메뉴 출력
+void Search_for_name(StructTree tree, QueType& que);		//이름으로 검색
+void Search_for_number(StructTree tree, QueType& que);		//번호로 검색
+void Search_for_treat(StructTree tree, QueType& que);		//치료법으로 검색
 </code></pre>
 
 + Patient.h
@@ -37,11 +37,11 @@ public:
 	void Input_data(int& count, int year, int month, int day);	//이름, 순번, 치료일시 저장
 	void Select_treat();						//치료방법 저장
 	void Data_copy(Patient data);					//환자 데이터 저장
-	void Data_stream(ofstream& file);					//.txt파일에 저장
-	void Print_data();							//환자 데이터 출력
-	string NameIs();							//환자 이름 리턴
+	void Data_stream(ofstream& file);				//.txt파일에 저장
+	void Print_data();						//환자 데이터 출력
+	string NameIs();						//환자 이름 리턴
 	int NumberIs();							//환자 순번 리턴
-	string TreatIs();							//환자 치료방법 리턴
+	string TreatIs();						//환자 치료방법 리턴
 </code></pre>
 
 + QueType.h
